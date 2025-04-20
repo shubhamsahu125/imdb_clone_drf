@@ -12,16 +12,16 @@ IMDB API Clone With DRF <br>
 
 3. Stream Platforms
 - Create Element & Access List: http://127.0.0.1:8000/api/watch/stream/
-- Access, Update & Destroy Individual Element: [http://127.0.0.1:8000/api/watch/stream/<int:streamplatform_id>/](http://127.0.0.1:8000/api/watch/stream/<int:streamplatform_id>/)
+- Access, Update & Destroy Individual Element: [http://127.0.0.1:8000/api/watch/stream/\<int:streamplatform_id\>/](http://127.0.0.1:8000/api/watch/stream/<int:streamplatform_id>/)
 
 4. Watch List
 - Create & Access List: http://127.0.0.1:8000/api/watch/
-- Access, Update & Destroy Individual Element: [http://127.0.0.1:8000/api/watch/<int:movie_id>/](http://127.0.0.1:8000/api/watch/<int:movie_id>/)
+- Access, Update & Destroy Individual Element: [http://127.0.0.1:8000/api/watch/\<int:movie_id\>/](http://127.0.0.1:8000/api/watch/<int:movie_id>/)
 
 5. Reviews
-- Create Review For Specific Movie: [http://127.0.0.1:8000/api/watch/<int:movie_id>/reviews/create/](http://127.0.0.1:8000/api/watch/<int:movie_id>/reviews/create/)
-- List Of All Reviews For Specific Movie: [http://127.0.0.1:8000/api/watch/<int:movie_id>/reviews/](http://127.0.0.1:8000/api/watch/<int:movie_id>/reviews/)
-- Access, Update & Destroy Individual Review: [http://127.0.0.1:8000/api/watch/reviews/<int:review_id>/](http://127.0.0.1:8000/api/watch/reviews/<int:review_id>/)
+- Create Review For Specific Movie: [http://127.0.0.1:8000/api/watch/\<int:movie_id\>/reviews/create/](http://127.0.0.1:8000/api/watch/<int:movie_id>/reviews/create/)
+- List Of All Reviews For Specific Movie: [http://127.0.0.1:8000/api/watch/\<int:movie_id\>/reviews/](http://127.0.0.1:8000/api/watch/<int:movie_id>/reviews/)
+- Access, Update & Destroy Individual Review: [http://127.0.0.1:8000/api/watch/reviews/\<int:review_id\>/](http://127.0.0.1:8000/api/watch/reviews/<int:review_id>/)
 
 6. User Review
 - Access All Reviews For Specific User: [http://127.0.0.1:8000/api/watch/user-reviews/?username=example](http://127.0.0.1:8000/api/watch/user-reviews/?username=example)
